@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xeno — Personal Website</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-mark">X</span>ENO
+      </a>
+
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="main-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT ==================== -->
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="section hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">Xeno</span></h1>
+          <p class="lead">Full Stack Developer & AI/ML Engineer • IFT 203 Student • Owerri</p>
+          <p class="hero-text">
+            Creating clean, modern and responsive websites with passion and attention to detail. I craft digital solutions that combine cutting-edge technology with beautiful design.
+          </p>
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">40+</div>
+              <div class="stat-label">Charts</div>
+            </div>
+          </div>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn primary">View My Work</a>
+            <a href="#contact" class="btn outline">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-grid">
+          <div class="about-text">
+            <p>I'm a 200level student passionate about web technologies, user experience and clean code.</p>
+            <p>Currently learning HTML5 semantics, modern CSS (flexbox + grid), responsive design, and JavaScript interactivity as part of IFT 203 coursework.</p>
+            <p>I enjoy turning ideas into functional and beautiful digital experiences.</p>
+
+            <h3>Skills</h3>
+            <div class="skills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>Responsive Design</span>
+              <span>Git & GitHub</span>
+              <span>Figma</span>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+          
+          <div class="about-image-placeholder">
+            <!-- Replace with your photo -->
+            <div class="placeholder-box">
+              <img src="https://i.pinimg.com/736x/ce/f2/54/cef2543a482ba0e94ce55bdeb0e7ca60.jpg" alt="" class="dp">
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-breakdown">
+          <div class="skill-category">
+            <h4>Frontend</h4>
+            <p>Vue.js, React, JavaScript, TypeScript, Tailwind CSS</p>
+          </div>
+          <div class="skill-category">
+            <h4>Backend</h4>
+            <p>Node.js, Express, MongoDB, PostgreSQL, REST APIs</p>
+          </div>
+          <div class="skill-category">
+            <h4>Design</h4>
+            <p>UI/UX Design, Figma, Responsive Designs, Prototyping</p>
+          </div>
+          <div class="skill-category">
+            <h4>Tools</h4>
+            <p>Git, Docker, AWS, VSCode, Webpack</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section bg-dark">
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+        
+          <article class="project-card">
+            <a href="https://thriving-sprite-ca861a.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/1200x/db/db/69/dbdb69651398238b3a776aabe75cfd6d.jpg" alt="" width="680px" height="500px"></div>
+            <div class="project-info">
+              <h3>Course Attendance Tracker</h3>
+              <p>Responsive verification page with nice graphics for course attendance tracking.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                
+              </div>
+            </div>
+            </a>
+          </article>
+        
+
+          <!-- Project 2 -->
+        
+          <article class="project-card">
+            <a href="https://regal-squirrel-f32cb0.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/736x/33/61/60/33616021765031e100e794675635b0b9.jpg" alt=""></div>
+            <div class="project-info">
+              <h3>Project Management Dashboard</h3>
+              <p>Well organised and responsive project management dashboard for student studies.</p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>CSS Grid</span>
+                
+              </div>
+            </div>
+            </a>
+          </article>
+        
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <a href="project2.html" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/736x/78/d8/50/78d8501b360c339b4ac12ba70914655c.jpg" alt=""></div>
+            <div class="project-info">
+              <h3>Interactive To-Do Application</h3>
+              <p>Modern to-do list with localStorage, filters, dark theme and smooth interactions.</p>
+              <div class="project-tags">
+                <span>JavaScript</span><span>localStorage</span><span>CSS</span>
+              </div>
+            </div>
+            </a>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <a href="Project1.html" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/736x/be/5e/42/be5e4290578343bb2b08881dbf983234.jpg" alt=""></div>
+            <div class="project-info">
+              <h3>Xeno's Xcstacy - Tech HUB</h3>
+              <p>Futuristic technology landing page showcasing AI/ML projects and digital innovation.</p>
+              <div class="project-tags">
+                <span>Advanced CSS</span><span>Animations</span><span>Modern Design</span>
+              </div>
+            </div>
+            </a>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project-card">
+            <a href="love3.html" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/736x/6f/c7/cf/6fc7cfb3f4f58ebab075163f8473b7cc.jpg" alt=""></div>
+            <div class="project-info">
+              <h3>Love Surprise Page</h3>
+              <p>Interactive love-themed page with animations, music, and special messages.</p>
+              <div class="project-tags">
+                <span>Animations</span><span>Audio</span><span>Interactive</span>
+              </div>
+            </div>
+            </a>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project-card">
+            <a href="love.html" target="_blank" rel="noopener noreferrer" class="project-card">
+            <div class="project-img placeholder"><img src="https://i.pinimg.com/736x/ce/f2/54/cef2543a482ba0e94ce55bdeb0e7ca60.jpg" alt=""></div>
+            <div class="project-info">
+              <h3>Advanced Portfolio Design</h3>
+              <p>Modern portfolio with skills breakdown and professional presentation.</p>
+              <div class="project-tags">
+                <span>Portfolio</span><span>Professional</span><span>Design</span>
+              </div>
+            </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Your name" />
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="your.email@example.com" />
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="How can I help you?"></textarea>
+          </div>
+          
+          <button type="submit" class="btn primary large">Send Message</button>
+        </form>
+
+        <p id="form-message" class="form-feedback"></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Xeno — IFT 203 Lab Project | Built with passion</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
